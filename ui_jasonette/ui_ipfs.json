@@ -1,0 +1,102 @@
+{
+  "$jason": {
+    "head":{
+      "title":"IPFS Uploader"
+    },
+    "body":{
+      "sections":[
+        {
+          "items":[
+            {
+              "type":"label",
+              "text":"IPFS Uploader",
+              "style": {
+                "height": "100",
+                "color": "#222222",
+                "font": "HelveticaNeue",
+                "size": "40",
+                "align": "center",
+              },
+            },
+            {
+              "type": "image",
+              "url": "https://ipfs.io/ipfs/QmTgtbb4LckHaXh1YhpNcBu48cFY8zgT1Lh49q7q7ksf3M/raster-generated/ipfs-logo-text-256-white.png",
+              "style": {
+                "align": "center",
+                "size": "50%"
+              }
+            },
+            {
+              "type":"button",
+              "text":"Refresh",
+              "style": {
+                "width": "50",
+                "height": "70",
+                "background": "#00ff00",
+                "color": "#ffffff",
+                "font": "HelveticaNeue",
+                "size": "18",
+                "corner_radius": "25"
+              },
+              "action":{
+                "type":"$reload"
+              }
+            },
+            {
+              "type":"label",
+              "text":"Uploading files in IPFS - select a file"
+            },
+            {
+              "type":"label",
+              "text":"[file name]"
+            },
+            {
+              "type":"label",
+              "text":"[button upload]"
+            },
+            {
+              "type":"label",
+              "text":"---- next screen ----"
+            },
+            {
+              "type":"label",
+              "text":"[select range]"
+            },
+            {
+              "type":"label",
+              "text":"---- next screen ----"
+            },
+            {
+              "type":"label",
+              "text":"<qr code payment>"
+            },
+            {
+              "type":"label",
+              "text":"---- next screen ----"
+            },
+            {
+              "type":"label",
+              "text":"success!"
+            },
+            {
+              "type":"button",
+              "text":"Refresh",
+              "style": {
+                "width": "50",
+                "height": "50",
+                "background": "#00ff00",
+                "color": "#ffffff",
+                "font": "HelveticaNeue",
+                "size": "12",
+                "corner_radius": "25"
+              },
+              "action":{
+                "type":"$reload"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

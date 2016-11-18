@@ -1,0 +1,3 @@
+cd ui_jasonette      && \
+
+  python -m SimpleHTTPServer 3002

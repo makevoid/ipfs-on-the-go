@@ -1,0 +1,31 @@
+{
+  "type": "$media.camera",
+  "options": {
+    "quality": "0.2"
+  },
+  "success": {
+    "type": "$network.upload",
+    "options": {
+      "type": "s3",
+      "bucket": "fm.ethan.jason",
+      "data": "{{$jason.data}}",
+      "path": "",
+      "sign_url": "http://localhost:3002/ipfs_upload"
+    },
+    "success": {
+      "type": "$network.request",
+      "options": {
+        "url": "https://imagejason.herokuapp.com/post",
+        "method": "post",
+        "data": {
+          "bucket": "fm.ethan.jason",
+          "path": "/",
+          "filename": "{{$jason.filename}}"
+        }
+      },
+      "success": {
+        "type": "$reload"
+      }
+    }
+  }
+}

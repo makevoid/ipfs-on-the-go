@@ -1,0 +1,6 @@
+cd ui_jasonette      && \
+
+
+  ngrok http --subdomain=mkvd
+
+  # ngrokkio 3002
