@@ -3,13 +3,21 @@
 ---
 
 
-this app provides you IPFS when you need it
+this app provides you IPFS photo uploading on the go (when you most need it w/o even opening your laptop)
 
 - upload a file
+
+- your file is published to ipfs
+
+------
+
+premium feature:
+
 - select time range (now to 1 month, now to 1 year, now to 2 years)
-- pay 0.1 1 or 2 mbtc
 
+- pay 0.1 1 or 2 mbtc to seed the upload
 
+---------
 
 ### to run this app:
 
